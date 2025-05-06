@@ -14,9 +14,7 @@
     "docker-run": "sudo docker run -p 3030:3000 evermeet/evermeet"
   },
   "workspaces": [
-    "./packages/api",
-    "./packages/web",
-    "./packages/did-plc-lib"
+    "packages/*"
   ],
   "dependencies": {
     "@changesets/cli": "^2.27.1",
