@@ -1,2 +1,5 @@
 packages:
-  - packages/*
+  - 'packages/*'
+  - 'apps/*'
+  # remove or fix this if it's not a valid path
+  - 'svelte-i18n-lingui'
